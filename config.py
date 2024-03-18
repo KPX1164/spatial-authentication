@@ -6,7 +6,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 DEBUG = True
 
-SQLALCHEMY_DATABASE_URI = 'mysql://root:password@127.0.0.1:3306/authentication-user'
+SQLALCHEMY_DATABASE_URI = 'mysql://root:password@127.0.0.1:3306/spatial-authentication'
 
 SQLAlCHEMY_TRACK_MODIFICATIONS = False
 JSON_SORT_KEYS = False
